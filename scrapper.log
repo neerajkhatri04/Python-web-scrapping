@@ -1,0 +1,18 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.60:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [06/May/2024 18:59:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/May/2024 18:59:24] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/May/2024 18:59:24] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/May/2024 18:59:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iphone11', 'Name': 'Vishnu Ramakrishnan', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Camera is awesomeBest battery backupA performer \U0001f44c\U0001f3fbIt will be a real value for money if they provide charger and earphone inbox!'}, {'Product': 'iphone11', 'Name': 'Manish  Deshlahare', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Very very good'}, {'Product': 'iphone11', 'Name': 'Steevan Rattra ', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Good Camera'}, {'Product': 'iphone11', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'This is amazing at all'}, {'Product': 'iphone11', 'Name': 'Abhishek Sachdeva', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': 'Feeling awesome after getting the delivery of my phone. Dual speakers makes the sound quality very loud. Amazing!!'}, {'Product': 'iphone11', 'Name': 'siva sankar', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Photos super'}, {'Product': 'iphone11', 'Name': 'Dev', 'Rating': '5', 'CommentHead': 'Terrific purchase', 'Comment': 'Value for money \U0001f60d'}, {'Product': 'iphone11', 'Name': 'Kuldeep Kumar', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'V Good all'}, {'Product': 'iphone11', 'Name': 'vikash  Yadav', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'It’s really awesome'}, {'Product': 'iphone11', 'Name': 'Shivam Rajput', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'NYC'}, {'Product': 'iphone11', 'Name': 'Shivam Rajput', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'NYC'}]
+INFO:pymongo.serverSelection:{"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x0000013D8FAF1DA0>", "operation": "insert", "operationId": 654199855, "topologyDescription": "<TopologyDescription id: 6638db3bcdfad470d66f9f20, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-khlfuad-shard-00-00.tmefki1.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-khlfuad-shard-00-01.tmefki1.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-khlfuad-shard-00-02.tmefki1.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "6638db3bcdfad470d66f9f20"}, "remainingTimeMS": 30}
+INFO:werkzeug:127.0.0.1 - - [06/May/2024 18:59:32] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/May/2024 18:59:32] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/May/2024 18:59:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
